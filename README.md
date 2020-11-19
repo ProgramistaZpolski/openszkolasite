@@ -1,0 +1,2 @@
+# openszkolasite
+Prosta strona szkoły
