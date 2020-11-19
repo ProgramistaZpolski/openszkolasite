@@ -1,0 +1,8 @@
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>Strona korzysta z pzplUI 1.0</footer>
+</body>
+
+</html>

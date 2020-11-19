@@ -1,0 +1,323 @@
+body {
+    text-align: center;
+}
+
+main {
+    border-radius: 6px;
+    box-shadow: var(--box-shadow-2);
+    width: 400px;
+    background-color: white;
+    height: 225px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+
+/* pzplUI */
+:root {
+    --bg-color: #FAFAFB;
+    --bg-text: black;
+    --box-shadow-1: 0px 2px 3px rgba(50, 50, 50, 0.2);
+    --box-shadow-2: 0px 3px 4px rgba(40, 40, 40, 0.4);
+    --black: black;
+    --black-hover: #212121;
+    --black-light: #455A64;
+    --white: white;
+    --blue-light: #42A5F5;
+    --blue: #039BE5;
+    --blue-hover: #0288D1;
+    --green-light: #81C784;
+    --green: #43A047;
+    --green-hover: #388E3C;
+    --red-light: #e57373;
+    --red: #e53935;
+    --red-hover: #d32f2f;
+    --orange-light: #FFB74D;
+    --orange: #FB8C00;
+    --orange-hover: #F57C00;
+    --info-blue-light: #4DD0E1;
+    --info-blue: #00ACC1;
+    --info-blue-hover: #0097A7;
+    --alert-text-color: white;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--bg-text);
+    line-height: 1.5;
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, "Helvetica Neue", Arial, Tahoma, Geneva, Verdana, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* Backgrounds */
+
+.bg-success {
+    background-color: var(--green) !important;
+}
+
+.bg-info {
+    background-color: var(--info-blue) !important;
+}
+
+.bg-danger {
+    background-color: var(--orange) !important;
+}
+
+.bg-error {
+    background-color: var(--red) !important;
+}
+
+.bg-normal {
+    background-color: var(--blue) !important;
+}
+
+.bg-dark {
+    background-color: var(--black) !important;
+}
+
+.text-normal {
+    color: var(--blue) !important;
+}
+
+.text-success {
+    color: var(--green) !important;
+}
+
+.text-error {
+    color: var(--red) !important;
+}
+
+.text-danger {
+    color: var(--orange) !important;
+}
+
+.text-dark {
+    color: var(--black) !important;
+}
+
+.text-info {
+    color: var(--info-blue) !important;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--button-text);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: .3s;
+    box-shadow: var(--box-shadow-1);
+}
+
+.btn:hover {
+    box-shadow: var(--box-shadow-2);
+}
+
+.btn-normal {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.btn-normal:hover {
+    background-color: var(--blue-hover);
+}
+
+.btn-success {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.btn-success:hover {
+    background-color: var(--green-hover);
+}
+
+.btn-error {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.btn-error:hover {
+    background-color: var(--red-hover);
+}
+
+.btn-danger {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.btn-danger:hover {
+    background-color: var(--orange-hover);
+}
+
+.btn-info {
+    background-color: var(--info-blue);
+    color: var(--white);
+}
+
+.btn-info:hover {
+    background-color: var(--info-blue-hover);
+}
+
+.btn-dark {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.btn-dark:hover {
+    background-color: var(--black-hover);
+}
+
+/* Alerts */
+
+.alert {
+    padding: .75rem 1.25rem;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+}
+
+.alert-normal {
+    background-color: var(--blue-light);
+    color: var(--alert-text-color);
+}
+
+.alert-success {
+    background-color: var(--green-light);
+    color: var(--alert-text-color);
+}
+
+.alert-error {
+    background-color: var(--red-light);
+    color: var(--alert-text-color);
+}
+
+.alert-danger {
+    background-color: var(--orange-light);
+    color: var(--alert-text-color);
+}
+
+.alert-info {
+    background-color: var(--info-blue-light);
+    color: var(--alert-text-color);
+}
+
+.alert-dark {
+    background-color: var(--black-light);
+    color: var(--alert-text-color);
+}
+
+/* Badges */
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    /*text-align: center;*/
+    color: #fff;
+    border-radius: .25rem;
+}
+
+.badge-normal {
+    background-color: var(--blue);
+}
+
+.badge-success {
+    background-color: var(--green);
+}
+
+.badge-error {
+    background-color: var(--red);
+}
+
+.badge-danger {
+    background-color: var(--orange);
+}
+
+.badge-info {
+    background-color: var(--info-blue);
+}
+
+.badge-dark {
+    background-color: var(--black);
+}
+
+/* Navbar */
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--white);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--blue);
+    transition: width .6s ease;
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin-top: 1rem;
+}
+
+/* Spinner */
+
+.spinner-border {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spinner-border .75s linear infinite;
+}
+
+@keyframes spinner-border {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}

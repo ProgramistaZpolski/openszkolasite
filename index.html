@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zespół Szkolno-Szkolny w Szkole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topimg"></div>
+    <header>
+        <h1>Zespół Szkolno-Szkolny w Szkole</h1>
+        <a href='pages/oszkole.html'><button class="btn btn-normal">O szkole</button></a>
+        <a href='pages/aktualnosci.html'><button class="btn btn-normal">Aktualności</button></a>
+        <a href='{{ wypełnij }}'><button class="btn btn-normal">Dziennik Elektroniczny</button></a>
+        <a href='pages/przedszkole.html'><button class="btn btn-normal">Przedszkole</button></a>
+        <a href='pages/zdalnenauczanie.html'><button class="btn btn-normal">Zdalne Nauczanie</button></a>
+        <a href='pages/dokumenty.html'><button class="btn btn-normal">Dokumenty</button></a>
+        <a href="pages/kontakt.html"><button class="btn btn-normal">Kontakt</button></a>
+        <a href='pages/rodzice.html'><button class="btn btn-normal">Dla rodziców</button></a>
+    </header>
+    <main>
+        <!-- Fun fact, wziąłem ten tekst "Witamy" ze strony mojej szkoły z 2002-2017. Kolor jest taki sam, tylko czcionka inna. -->
+        <h1 class="welcometext">Witamy</h1>
+        <div class="oszkoleshort">
+            <h1>O szkole</h1>
+            <div class="break"></div>
+            <h2>{{ wypełnij }} Neque quia error magni ut. Quas totam ut quis non. Aut eaque quia sed quisquam nostrum sunt pariatur qui. Consequuntur praesentium ut alias illo.
+
+                Ipsa molestiae ipsa autem dolorem vero nobis suscipit. Itaque in et natus. Et delectus dicta et quo ut vero. Et id ipsa et nihil. Ea dolore omnis autem.
+                
+                Et consequatur asperiores ut dignissimos sequi ex enim tempora. Non qui et aut quo ut repellendus non nostrum. Eos neque itaque ea nihil.
+                
+                Dolore soluta dolore veniam sit. Incidunt pariatur nulla ipsa ea tenetur. Consequatur ut minus nisi iusto repellat ullam voluptatibus recusandae. Qui dolorem consectetur id laudantium nisi.
+                
+                 </h2>
+            <img src="./img/oszkole.webp" loading="lazy" alt="{{ wypełnij }}">
+        </div>
+        <h1 class="welcometext">Aktualności</h1>
+        <div>
+            <div class="annoucement">
+                <img src="{{ loading }}" id="annoucement1_img" loading="lazy" alt="Flaga polski">
+                <div class="annoucement__text">
+                <h2 id="annoucement1_title"> {{ loading }} </h2>
+                    <h4 id="annoucement1_desc"> {{ loading }} </h4>
+                </div>
+            </div>
+            <div class="annoucement">
+                <img src="{{ loading }}" loading="lazy" id="annoucement2_img" alt="Randomowy obrazek z r/linuxmemes">
+                <div class="annoucement__text">
+                    <h2 id="annoucement2_title"> {{ loading }} </h2>
+                    <h4 id="annoucement2_desc"> {{ loading }} </h4>
+                </div>
+            </div>
+            <div class="annoucement">
+                <img src="{{ loading }}" loading="lazy" id="annoucement3_img" alt="horror z Doki Doki Literature Club">
+                <div class="annoucement__text">
+                    <h2 id="annoucement3_title"> {{ loading }} </h2>
+                    <h4 id="annoucement3_desc"> {{ loading }}</h4>
+                </div>
+            </div>
+            <h3><a href="#">Czytaj więcej</a></h3>
+        </div>
+    </main>
+    <footer>Strona korzysta z pzplUI 1.0</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
